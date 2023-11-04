@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 67px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  z-index: 1000;
+}
+
+.logo{
+  padding: 5px 15px;
+}
+
+.location{
+    padding: 5px 20px;
+}
+.location_title{
+  font-weight: 700;
+}
+
+
+/* .search_bar{
+  
+} */
+
+.search{ 
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(214, 209, 209);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.search_icon{
+  width: 25px;
+}
+
+.search_input input{
+    width: 50vw;
+    border: none;
+}
+
+.login{
+  padding: 5px 15px;
+}
+
+.cart{
+  color: white;
+}
+
+.myCart{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(15, 123, 15);
+  border-radius: 5px;
+  padding: 9px 8px;
+}
+
+.cart_icon{
+  width: 15px;
+  height: 12px;
+}
+
+
+/* ----------------------------------------------- */
+
+.main-container{
+  
+  position: relative;
+  top: 70px;
+  max-width: 1100px;
+  margin: 0 10%;
+  border: 1px solid rgb(238, 238, 238);
+  
+}
+
+
+
+
+.banner_2{
+  display: flex;
+  gap: 10px;
+  overflow: auto hidden; 
+}
+
+.banner_2 img{
+  height: 150px;
+  width: 250px;
+}
+
+.banner_3{
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  
+}
+
+.banner_3 img{
+  width: 100%;
+}
+
+.cards{
+  display: flex;
+  gap: 10px;
+  overflow: auto hidden;
+  padding-bottom: 0;
+}
+
+
+.cards_items{
+  padding: 1px 4px;
+  height: 230px;
+  width:160px;
+  border: 1px solid  rgb(214, 209, 209);
+  background-color:  white;
+  border-radius: 6px;
+}
+
+.cards_img img{
+  width: 100%;
+}
+
+.items_price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.items_price button{
+  padding: 5px 20px;
+  border: 1px solid rgb(8, 239, 8);
+  border-radius: 4px;
+}
+
+
+footer{
+  position: relative;
+  top:100px ;
+  text-align: center;
+}
+
+.cart:hover{
+  transform: scale(1.2);
+}
+
+
